@@ -1,0 +1,18 @@
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+.parking-marker,.ramp-marker,.elevator-marker{
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+.ramp-marker {
+  background-image: url("./img/ramp-marker.svg");
+}
+.elevator-marker {
+  background-image: url("./img/elevator-marker.svg");
+}
+.parking-marker {
+  background-image: url("./img/parking-marker.svg");
+}
